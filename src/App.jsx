@@ -15,7 +15,7 @@ function App() {
             index
             element={<Planet />}
           />
-          <Route path="*" element={<Navigate to="/" replace={true} />} />
+          {/* <Route path="*" element={<Navigate to="/" replace={true} />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
