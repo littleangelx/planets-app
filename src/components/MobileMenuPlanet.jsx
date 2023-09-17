@@ -1,4 +1,4 @@
-import planetsData from "../../../data.json";
+import planetsData from "../../public/data.json";
 import MobileMenuItem from "./MobileMenuItem";
 
 function MobileMenuPlanet({ setIsMobileMenuOpen }) {

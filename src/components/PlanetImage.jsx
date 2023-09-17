@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 
-import planetsData from "../../../data.json";
+import planetsData from "../../public/data.json";
 
 function PlanetImage() {
   const isDesktop = useMediaQuery({ query: "(min-width: 900px)" });

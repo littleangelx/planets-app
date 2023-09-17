@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import planetsData from "../../../data.json";
+import planetsData from "../../public/data.json";
 
 function PageNav() {
   return (

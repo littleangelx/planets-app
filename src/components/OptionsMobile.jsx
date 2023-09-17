@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
-import planetsData from "../../../data.json";
+import planetsData from "../../public/data.json";
 
 function OptionsMobile() {
   const { planetName, screenName } = useParams();
