@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap");
+
+body {
+  background-image: url("/public/assets/background-stars.svg");
+  background-size: cover;
+  background-color: #070724;
+  color: #fff;
+  width: 100dvw;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: "Antonio";
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: -0.06563rem;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 5%;
+  display: inline;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.nav-link {
+  font-family: "League Spartan";
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.hamburger {
+  float: right;
+  padding-top: 0.5rem;
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+.options-mobile {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.0625rem solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
+  padding: 1.25rem 5% 0;
+  margin-top: 1.25rem;
+}
+
+.option-mobile {
+  font-family: "League Spartan";
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.12056rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 1.25rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  gap: 0;
+  margin: 0;
+}
+
+.image-section {
+  height: 19.06rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  text-align: center;
+  font-family: "Antonio";
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.info {
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.info-section h1 {
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  margin-bottom: 2rem;
+}
+
+.source {
+  font-family: "League Spartan";
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  opacity: 0.5;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.source a {
+  text-decoration-line: underline;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0.5;
+  margin-right: 0.5rem;
+}
+
+.statistic {
+  display: flex;
+  margin-top: 0;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.81rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-heading {
+  font-family: "League Spartan";
+  font-size: 0.5rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: 0.04544rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.figure {
+  font-family: "Antonio";
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -0.04688rem;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  display: flex;
+  gap: 1.56rem;
+  padding: 1.25rem 2rem 1.25rem 1.5rem;
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.mobile-menu-items {
+  margin-top: 2rem;
+  border-top: 0.0625rem solid rgba(255, 255, 255, 0.1);
+}
+
+.circle {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+}
+
+.chevron {
+  height: 1rem;
+}
+
+.planet-name {
+  font-family: "League Spartan";
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: 0.08525rem;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.grid-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 21.1875rem 17.5625rem;
+  grid-template-rows: 15.8125rem;
+  grid-column-gap: 4.31rem;
+  margin-left: 1.4rem;
+  margin-right: 2.5rem;
+  align-items: center;
+  margin-bottom: 2.06rem;
+}
+
+.option {
+  flex: 1;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 1.06rem;
+  padding-left: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.option p {
+  font-family: "League Spartan";
+  font-size: 0.5625rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: 0.12056rem;
+  text-transform: uppercase;
+}
+
+.option p:first-child {
+  opacity: 0.5;
+}
+
+.statistics {
+  width: 90%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.69rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  .title {
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  header {
+    width: 100dvw;
+    flex-direction: column;
+    padding-bottom: 1.69rem;
+    border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
+  }
+  nav {
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+  }
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .info {
+    text-align: left;
+  }
+  .statistics {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+  }
+  .statistic {
+    display: flex;
+    flex-direction: column;
+    height: 5.5rem;
+    align-items: start;
+    gap: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .desktop-nav-container {
+    position: relative;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    gap: 2.06rem;
+    opacity: 0.5;
+  }
+  .title {
+    width: 10rem;
+    margin-left: 3%;
+  }
+  .desktop-grid-container {
+    display: grid;
+    margin-top: 1rem;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 7fr 3fr;
+    /* grid-row-gap: 2.44rem; */
+    margin-bottom: 5.44rem;
+  }
+  .image-section {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1 / 2;
+    align-self: center;
+    justify-self: center;
+  }
+  main {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column: 2 / 3;
+  }
+  .info-section h1 {
+    font-size: 5rem;
+    text-align: left;
+    margin-bottom: 1.44rem;
+  }
+  .info,
+  .source {
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+    text-align: left;
+    opacity: 0.5;
+  }
+  .options {
+    grid-column: 2 / 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .option {
+    width: 21.875rem;
+    height: 3rem;
+    margin-left: 0;
+  }
+  .statistics {
+    width: 86%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.88rem;
+    justify-content: space-evenly;
+  }
+  .statistic {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+    height: 8rem;
+  }
+  .stat-heading {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: 0.0625rem;
+    padding: 0;
+    margin: 0;
+  }
+  .figure {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: -0.09375rem;
+    padding: 0;
+    margin: 0;
+  }
+}
